@@ -191,6 +191,27 @@ nav.main-nav a.active {
   max-width: 640px;
 }
 
+/* About page prose */
+
+.about-copy {
+  max-width: 720px;
+}
+
+.about-copy h2 {
+  font-size: 1.4rem;
+  margin: 40px 0 14px;
+  color: var(--color-charcoal);
+}
+
+.about-copy h2:first-child {
+  margin-top: 0;
+}
+
+.about-copy p {
+  margin: 0 0 18px;
+  color: var(--color-text);
+}
+
 /* Practice area cards */
 
 .practice-grid {
