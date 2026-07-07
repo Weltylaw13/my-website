@@ -129,7 +129,7 @@ nav.main-nav a.active {
     linear-gradient(rgba(20, 22, 23, 0.55), rgba(20, 22, 23, 0.55)),
     url('images/hero-vineyard.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center 68%;
   background-repeat: no-repeat;
   color: #ffffff;
   padding: 60px 24px;
