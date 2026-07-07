@@ -126,10 +126,10 @@ nav.main-nav a.active {
   justify-content: center;
   background-color: var(--color-charcoal);
   background-image:
-    linear-gradient(rgba(20, 22, 23, 0.55), rgba(20, 22, 23, 0.55)),
-    url('images/hero-vineyard.jpg');
+    linear-gradient(rgba(20, 22, 23, 0.45), rgba(20, 22, 23, 0.45)),
+    url('images/hero-vineyard-2.jpg');
   background-size: cover;
-  background-position: center 68%;
+  background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
   padding: 60px 24px;
@@ -254,11 +254,33 @@ nav.main-nav a.active {
   color: var(--color-text);
 }
 
-/* Practice area cards */
+/* Practice areas page */
+
+.practice-page-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 780px) {
+  .practice-page-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.practice-photo img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 96px;
+}
 
 .practice-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 24px;
 }
 
