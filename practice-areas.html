@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  (function () {
+    var allowedHosts = ['weltylegal.com', 'www.weltylegal.com', 'localhost', '127.0.0.1', ''];
+    if (allowedHosts.indexOf(window.location.hostname) === -1) {
+      window.location.replace('https://www.weltylegal.com/');
+    }
+  })();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Practice Areas | Welty Legal, PC</title>

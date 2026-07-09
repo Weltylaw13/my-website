@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  (function () {
+    var allowedHosts = ['weltylegal.com', 'www.weltylegal.com', 'localhost', '127.0.0.1', ''];
+    if (allowedHosts.indexOf(window.location.hostname) === -1) {
+      window.location.replace('https://www.weltylegal.com/');
+    }
+  })();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | Welty Legal, PC</title>
@@ -41,6 +49,8 @@
         <dt>Phone</dt>
         <dd><a href="tel:+17073263512">707-326-3512</a></dd>
 
+        <dt>Email</dt>
+        <dd><a href="mailto:matt@weltylegal.com">matt@weltylegal.com</a></dd>
       </dl>
 
       <div class="map-embed">
